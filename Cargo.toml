@@ -1,0 +1,14 @@
+[package]
+name = "tarsplit"
+version = "0.1.0"
+authors = ["All The Music, LLC"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+tar = "0.4.26"
+flate2 = "1.0.9"
+
+[dev-dependencies]
+galvanic-assert = "0.8.7"
+galvanic-test = "0.2.0"
